@@ -1,0 +1,124 @@
+/*
+opening, default attributes to page
+*/
+body { 
+color: #ffffff
+}
+main {
+    display:flex;
+}
+h3 {
+    margin-bottom: 0px;
+}
+h2 {
+    font-size:36px;
+}
+h3 { 
+    margin-top: 0px;
+}
+
+/* header
+*/
+.header {
+    max-height:96px;
+    flex-direction: row;
+    align-items:center;
+    display:flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+}
+h1 {
+    text-align:left;
+    margin-left: 20px;
+    font-size: 48px;
+    width: 55%;
+}
+.navigation {
+    margin-right:20px;
+    width:45%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+ 
+}
+a {
+    color: #ffffff;
+    font-size:15px;
+    text-decoration: none;
+}
+
+/* main picture positioning*/
+.content {
+    width: 80%;
+}
+.companypicture {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*text area of webpage, formatting of each article */
+.content {
+    width: 80%;
+    margin-left:20px;
+    margin-right:20px;
+}
+main section article {
+    align-items:flex-start;
+    display:flex;
+    padding:50px;
+    max-height:300px;
+    margin-bottom:20px;
+    background-color: #0072bb;
+    max-height:300px;
+}
+main img {
+    max-height:200px;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-right: 20px;
+}
+aside {
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    background-color: #0072bb;
+    width:20%;
+    margin-right: 10px;
+}
+main aside article {
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    margin-bottom:20px;
+    padding:10px;
+    max-height:300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* minor positioning of content within main part of page */
+.img1, .img3 {
+    order: 1;
+}
+ .smmtext, .seotext, .img2 {
+    order: 2;
+}
+.social-media-marketing {
+    margin-bottom:0px;
+}
+
+/* footer detail and positioning */
+footer {
+    margin-top:20px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+}
+
